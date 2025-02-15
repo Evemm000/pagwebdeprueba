@@ -1,0 +1,51 @@
+:root {
+
+}
+
+#triangulo{
+    width: 0;
+    height: 0;
+    border-top: 30px solid #55f;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    }
+
+    #bocadillo {
+        padding: 10px;
+        width: 220px;
+        border-radius: 10px;
+        background-color: #f80;
+        font-family: "trebuchet ms", tahoma, verdana, sans-serif;
+        font-size: 1.4em;
+        }
+
+        #bocadillo:before {
+            content:"";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-top: 20px solid transparent;
+            border-right: 20px solid #f80;
+            border-bottom: 30px solid transparent;
+            margin: 10px 0 0 32px;
+            } 
+
+            #bocadilloarriba {
+                padding: 10px;
+                width: 220px;
+                border-radius: 10px;
+                background-color: #8f0;
+                font-family: "trebuchet ms", tahoma, verdana, sans-serif;
+                font-size: 1.4em;
+                }
+
+                    #bocadilloarriba:before {
+                    content:"";
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    border-bottom: 30px solid #8f0;
+                    border-right: 20px solid transparent;
+                    border-left: 20px solid transparent;
+                    margin: 30px 0 0 90px;
+                    }
